@@ -13,7 +13,7 @@ public class JavaListSort {
 	//or using the sort  method of list  with own comparator for sorting 
 	public static void main(String[] args) {
 	   
-		//inilitzig length of for loop
+		//initializing length of for loop
 		final int LENGTH =5;
 		
 		//Let's do initialize  a new list

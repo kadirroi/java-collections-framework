@@ -42,10 +42,4 @@ public class JavaArrayListForeachWithJava8 {
 			
 		}
 	}
-	
-	class Deneme {
-		
-		
-	}
-
 }

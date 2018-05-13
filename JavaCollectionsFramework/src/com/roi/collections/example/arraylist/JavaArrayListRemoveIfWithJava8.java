@@ -9,7 +9,7 @@ public class JavaArrayListRemoveIfWithJava8 {
 	public static void main(String[] args) {
 	
 		
-     //Defining a new list to append  new elements
+               //Defining a new list to append  new elements
 		List<String>  countries = new ArrayList<>();
 		countries.add("Turkey");
 		countries.add("USA");
@@ -29,6 +29,7 @@ public class JavaArrayListRemoveIfWithJava8 {
 		
 		//RemoIf was added in Java 1.8 and it is useful 
 		//method to remove element with condition related filter 
+		//Recommended way
 		countries.removeIf(country -> {return "USA".equals(country);});
 		
 		//Let's look at final status 

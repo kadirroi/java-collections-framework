@@ -12,7 +12,6 @@ public class JavaArrayListReplaceAllWithJava8 {
 		List<String> countries = new ArrayList<>();
 		countries.add("Turkey");
 		countries.add("USA");
-
 		countries.add("England");
 		countries.add("Spain");
 

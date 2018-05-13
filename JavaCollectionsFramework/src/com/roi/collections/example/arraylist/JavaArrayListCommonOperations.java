@@ -41,29 +41,24 @@ public class JavaArrayListCommonOperations {
 	    
 	    //adding new eleemnts to the list of teamsGroupB
 	    teamsGroupB.add("Malaga");
-		teamsGroupB.add("Ajax");
+	    teamsGroupB.add("Ajax");
 		
 		
-		//Let's show all off elements in this list
-		System.out.println(teamsGroupB);
+	    //Let's show all off elements in this list
+	    System.out.println(teamsGroupB);
 		
 		
-		//inserting list to the list
-		teams.addAll(3, teamsGroupB);
+	    //inserting list to the list
+	    teams.addAll(3, teamsGroupB);
 		
-		//Let's show all off elements in this list
+	    //Let's show all off elements in this list
 	    System.out.println(teams);
 		
-		//Teams list contains Sevilla?
-		System.out.println(teams.contains("Sevilla"));
+	    //Teams list contains Sevilla?
+	    System.out.println(teams.contains("Sevilla"));
 		
-		//Teams list contains Barcelona?
-		System.out.println(teams.contains("Barcelona"));
-		
-		
-		
-		
-		
+	    //Teams list contains Barcelona?
+	    System.out.println(teams.contains("Barcelona"));
 	}
 	
 }

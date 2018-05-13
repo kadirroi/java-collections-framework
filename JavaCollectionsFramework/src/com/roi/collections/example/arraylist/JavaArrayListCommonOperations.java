@@ -9,7 +9,7 @@ public class JavaArrayListCommonOperations {
 		//Initializing  new array list with initial capacity as 10
 		ArrayList<String> teams = new ArrayList<>();
 		
-		//let's insert  four teams in Europe :)
+		//let's insert four teams in Europe :)
 		teams.add("Galatasaray");
 		teams.add("Real madrid");
 		teams.add("Barcelona");

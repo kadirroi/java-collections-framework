@@ -18,7 +18,7 @@ public class JavaArrayList {
 		//Defining recommend way array list in java
 		List<String> listrecommend = new ArrayList<>();
 		
-	    //There are three constructors in Java array list class
+	        //There are three constructors in Java array list class
 		
 		//Let's do java array list default constructor
 		//default capacity is defined as 10
@@ -27,7 +27,7 @@ public class JavaArrayList {
 		
 		//We can define initial capacity of array list later calling 
 		//the method of  ensureCapacity
-        friends.ensureCapacity(1000);
+                friends.ensureCapacity(1000);
 		
 		//Now let's  define java array list  constructor with initial capacity
 		//now we have defined default capacity as 5000 for this list
